@@ -293,7 +293,7 @@
                 });
 
                 $('#lookup-coordinates').click(function () {
-                    let url = 'https://maps.googleapis.com/maps/api/geocode/json?key=AIzaSyBwD--uS1MCfHc_Z4i1wBV57VDxXDAqXnQ';
+                    let url = 'https://maps.googleapis.com/maps/api/geocode/json?key={{ config('services.google_maps.key') }}';
                     let address = $('#address_line_1').val() + ' ' + $('#address_line_2').val() + ' ' + $('#city').val() + ' '
                         + $('#county').val() + ' ' + $('#postcode').val();
 
