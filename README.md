@@ -2,7 +2,7 @@
 
 ## Propertest (Properties CRM Test)
 
-A simple admin panel to manage properties
+A simple admin panel to manage properties.
 
 ## Setup
 
